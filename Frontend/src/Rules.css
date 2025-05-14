@@ -1,0 +1,84 @@
+/* Main container for the rules section, with padding to space out content */
+.rules-container {
+  padding: 20px;
+}
+
+/* Title styling for the rules section, centers the heading with margin below */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling to center the input and button elements */
+.rules-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Input field styling inside the form */
+.rules-form input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px; /* Space between input and button */
+}
+
+/* Button styling inside the form, green background for action */
+.rules-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect to darken the green color */
+.rules-form button:hover {
+  background-color: #218838;
+}
+
+/* Table styling: makes the table full-width and removes spacing between borders */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table cell styling for consistent padding and borders */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Header cells with a light background color to separate them from data */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Zebra striping for table rows to improve readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows for better interactivity */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* General button styling for any other buttons, with a red background */
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons to darken the red color */
+button:hover {
+  background-color: #c82333;
+}

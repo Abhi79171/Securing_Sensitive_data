@@ -1,0 +1,67 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error {
+    text-align: center;
+    padding: 20px;
+    color: red;
+  }
+  
+  .logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .table-header th {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .table-row td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .table-row.even {
+    background-color: #fafafa;
+  }
+  
+  .table-row.odd {
+    background-color: #ffffff;
+  }
+  
+  .table-row.sensitive {
+    background-color: #ffcccc;
+  }
+  
+  .table-row:hover {
+    background-color: #e6f3ff;
+    transition: background-color 0.3s;
+  }
+  th:nth-child(2),
+td:nth-child(2){
+  width: 100px; 
+}
+th:nth-child(4),
+td:nth-child(4){
+  width: 10px; 
+}

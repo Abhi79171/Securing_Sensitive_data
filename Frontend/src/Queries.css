@@ -1,0 +1,51 @@
+/* Main container for the queries section, with padding for spacing */
+.queries-container {
+  padding: 20px;
+}
+
+/* Centers the query section title and adds space below it */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styling to give it full width, with a subtle shadow for depth */
+table {
+  width: 100%; /* Makes the table span the entire available width */
+  border-collapse: collapse; /* Ensures borders between cells are merged */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a light shadow for visual depth */
+}
+
+/* General styling for table cells, providing consistent padding and borders */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Light background for headers to make them stand out */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Zebra striping for rows to make data easier to read */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows to highlight them when the user interacts */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Specific width for the first column (e.g., for short data like IDs) */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 100px; /* Ensures the first column stays narrow */
+}
+
+/* Specific width for the second column (e.g., for longer data like names or queries) */
+th:nth-child(2),
+td:nth-child(2) {
+  width: 200px; /* Makes the second column wider for readability */
+}

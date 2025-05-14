@@ -1,0 +1,68 @@
+/* Main container for the dashboard layout */
+.dashboard-container {
+  padding: 20px; /* Adds space around all dashboard content */
+}
+
+/* Spacing between different dashboard sections or widgets */
+.section {
+  margin-bottom: 20px;
+}
+
+/* General table styling for consistent layout */
+table {
+  width: 100%; /* Table stretches full width */
+  border-collapse: collapse; /* Removes space between cell borders */
+}
+
+/* Table headers and cells with consistent padding and border */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Light background for table headers to differentiate from data rows */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Sets specific width for action columns (e.g., buttons) to keep layout consistent */
+th:nth-child(4), th:nth-child(5),
+td:nth-child(4), td:nth-child(5) {
+  width: 180px;
+}
+
+/* Basic button styling used throughout the table (like edit/delete) */
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Slight visual feedback when hovering over buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Styles for the first button in a row (usually an "edit" or "approve" action) */
+button:first-child {
+  background-color: green;
+  color: white;
+}
+
+/* Styles for the second button (commonly a "delete" or "reject" action) */
+button:nth-child(2) {
+  background-color: red;
+  color: white;
+}
+
+/* Ensures that if there's a third button, it's also red (e.g., a delete at the end) */
+td button:last-child {
+  background-color: red;
+}
+
+/* Centers headings to create a clean, structured layout */
+h1, h2, h3 {
+  text-align: center;
+}

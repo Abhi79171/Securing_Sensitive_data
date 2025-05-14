@@ -7,7 +7,7 @@ This project focuses on building a secure, privacy-aware chatbot system that pre
 - **Sensitive Data Detection**: Identifies financial, personal, and health-related data using transformer-based models and regex patterns.
 - **NLP Classifier**: Fine-tuned BERT/GPT/FinBERT models for classifying and tagging sensitive input.
 - **Chatbot Interface**: User-friendly frontend to interact with the bot.
-- ⚙**Admin Dashboard**: Tracks flagged content, model decisions, and user query logs.
+- **Admin Dashboard**: Tracks flagged content, model decisions, and user query logs.
 - **Logs & Monitoring**: Stores and visualizes detected sensitive data entries for auditing and compliance.
 - **Multi-Model Evaluation**: Compares outputs from OpenAI, Claude, and other LLMs for correctness and sensitivity.
 
